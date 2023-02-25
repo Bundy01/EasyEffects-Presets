@@ -2,6 +2,9 @@
 Presets for EasyEffects on Pipewire (Bass Boost, Bose and Sony).
 
 ## Installation
+* You can use the `Import Preset` button that is beside the `Add` preset button.
+
+Or
 * Copy the presets to `~/.config/easyeffects/output`.
 * If you have installed Pipewire with Flatpak, it's here `~/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output`.
 
