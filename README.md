@@ -3,7 +3,7 @@ Presets for EasyEffects on Pipewire (Bass Boost, Bose and Sony).
 
 ## Installation
 ### Download presets
-* Click on `Code`.
+* Click on `Code` in this repository.
 * Then select `Download ZIP`.
 
 ### Importation
