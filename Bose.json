@@ -1,7 +1,7 @@
 {
     "output": {
         "bass_enhancer#0": {
-            "amount": 2.0,
+            "amount": 0.6999999999999993,
             "blend": 0.0,
             "bypass": false,
             "floor": 10.0,
@@ -9,7 +9,7 @@
             "harmonics": 8.5,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "scope": 100.0
+            "scope": 80.0
         },
         "blocklist": [],
         "equalizer#0": {
@@ -345,7 +345,7 @@
             "release": 5.0,
             "sidechain-preamp": 0.0,
             "stereo-link": 100.0,
-            "threshold": -7.000000000000021
+            "threshold": -6.499999999999989
         },
         "plugins_order": [
             "equalizer#0",
