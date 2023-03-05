@@ -9,7 +9,7 @@
             "harmonics": 8.5,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "scope": 100.0
+            "scope": 80.0
         },
         "blocklist": [],
         "equalizer#0": {
