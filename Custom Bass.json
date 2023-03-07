@@ -119,7 +119,7 @@
                 },
                 "band5": {
                     "frequency": 258.4893192461112,
-                    "gain": 2.0,
+                    "gain": -2.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 2.209713863811955,
@@ -129,7 +129,7 @@
                 },
                 "band6": {
                     "frequency": 409.67796239706917,
-                    "gain": -2.0,
+                    "gain": -3.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 2.2097138638119556,
@@ -139,7 +139,7 @@
                 },
                 "band7": {
                     "frequency": 649.295813704455,
-                    "gain": -2.0,
+                    "gain": -4.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 2.2097138638119556,
@@ -276,7 +276,7 @@
                 },
                 "band5": {
                     "frequency": 258.4893192461112,
-                    "gain": 2.0,
+                    "gain": -2.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 2.209713863811955,
@@ -286,7 +286,7 @@
                 },
                 "band6": {
                     "frequency": 409.67796239706917,
-                    "gain": -2.0,
+                    "gain": -3.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 2.2097138638119556,
@@ -296,7 +296,7 @@
                 },
                 "band7": {
                     "frequency": 649.295813704455,
-                    "gain": -2.0,
+                    "gain": -4.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 2.2097138638119556,
@@ -327,30 +327,18 @@
             },
             "split-channels": false
         },
-        "limiter#0": {
-            "alr": false,
-            "alr-attack": 5.0,
-            "alr-knee": 0.0,
-            "alr-release": 50.0,
-            "attack": 5.0,
+        "maximizer#0": {
             "bypass": false,
-            "dithering": "None",
-            "external-sidechain": false,
-            "gain-boost": true,
+            "ceiling": 0.0,
             "input-gain": 0.0,
-            "lookahead": 5.0,
-            "mode": "Herm Thin",
             "output-gain": 0.0,
-            "oversampling": "None",
-            "release": 5.0,
-            "sidechain-preamp": 0.0,
-            "stereo-link": 100.0,
+            "release": 25.0,
             "threshold": 0.0
         },
         "plugins_order": [
             "equalizer#0",
             "bass_enhancer#0",
-            "limiter#0"
+            "maximizer#0"
         ]
     }
 }
