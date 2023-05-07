@@ -17,7 +17,7 @@ Or
 You will need to install the `calf-plugins` or `calf`, `lsp-plugins` or `lsp-plugins-lv2` and `zam-plugins` or `zam-plugins-lv2` packages from your GNU/Linux distribution to enable the presets effects.
 
 ## Bass settings
-Adjust your bass to the speaker levels if the presets are not suitable or use EasyEffects in `Plugins`, select a preset and then change `Quantity` in dB of `Bass Enhancer` (be careful of saturation 😉️).
+Adjust your bass to the speaker levels if the presets are not suitable or use EasyEffects in `Plugins`, select a preset and then change `Amount` in dB of `Bass Enhancer` (be careful of saturation 😉️).
 
 Saves the changes in `Presets`.
 
