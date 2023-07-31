@@ -1,15 +1,12 @@
 {
     "output": {
-        "bass_enhancer#0": {
-            "amount": 2.5,
-            "blend": 0.0,
+        "bass_loudness#0": {
             "bypass": false,
-            "floor": 10.0,
-            "floor-active": false,
-            "harmonics": 8.5,
             "input-gain": 0.0,
-            "output-gain": 0.0,
-            "scope": 80.0
+            "link": -9.0,
+            "loudness": -2.8,
+            "output": -7.299999999999995,
+            "output-gain": 0.0
         },
         "blocklist": [],
         "equalizer#0": {
@@ -337,7 +334,7 @@
         },
         "plugins_order": [
             "equalizer#0",
-            "bass_enhancer#0",
+            "bass_loudness#0",
             "maximizer#0"
         ]
     }
