@@ -2,6 +2,8 @@
 **Presets for [EasyEffects](https://github.com/wwmm/easyeffects) on [Pipewire](https://pipewire.org/) (Bose, Custom Bass and Sony).**
 
 ## Installation
+* Install `easyeffects` and its dependencies.
+
 ### Download of presets
 * Click on `Code` in this repository.
 * Then select `Download ZIP`.
@@ -14,10 +16,10 @@ Or
 * If you have installed EasyEffects with Flatpak, it's here `~/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output`.
 
 ## Presets dependencies
-You will need to install the `calf-plugins` or `calf`, `lsp-plugins` or `lsp-plugins-lv2` and `zam-plugins` or `zam-plugins-lv2` packages from your GNU/Linux distribution to enable the presets effects.
+You will need to install the `mda.lv2` or `mda-lv2`, `lsp-plugins-lv2` and `zam-plugins-lv2` or `zam-plugins` packages from your GNU/Linux distribution to enable the presets effects.
 
 ## Bass settings
-Adjust your bass to the speaker levels if the presets are not suitable or use EasyEffects in `Plugins`, select a preset and then change `Amount` in dB of `Bass Enhancer` (be careful of saturation 😉️).
+Adjust your bass to the speaker levels if the presets are not suitable or use EasyEffects in `Plugins`, select a preset and then change `Loundness` in dB from `Bass Loundness` effect.
 
 Saves the changes in `Presets`.
 
