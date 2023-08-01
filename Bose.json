@@ -5,7 +5,7 @@
             "input-gain": 0.0,
             "link": -9.0,
             "loudness": -3.2,
-            "output": -4.800000000000004,
+            "output": -4.8,
             "output-gain": 0.0
         },
         "blocklist": [],
@@ -330,7 +330,7 @@
             "input-gain": 0.0,
             "output-gain": 0.0,
             "release": 25.0,
-            "threshold": -5.000000000000007
+            "threshold": -5.0
         },
         "plugins_order": [
             "equalizer#0",
