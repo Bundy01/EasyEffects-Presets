@@ -4,8 +4,8 @@
             "bypass": false,
             "input-gain": 0.0,
             "link": -9.0,
-            "loudness": -3.2,
-            "output": -4.5,
+            "loudness": -3.3,
+            "output": -5.5,
             "output-gain": 0.0
         },
         "blocklist": [],
@@ -330,7 +330,7 @@
             "input-gain": 0.0,
             "output-gain": 0.0,
             "release": 25.0,
-            "threshold": -5.0
+            "threshold": -2.5
         },
         "plugins_order": [
             "equalizer#0",

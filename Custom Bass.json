@@ -4,8 +4,8 @@
             "bypass": false,
             "input-gain": 0.0,
             "link": -9.0,
-            "loudness": -2.8,
-            "output": -7.3,
+            "loudness": -3.0,
+            "output": -9.0,
             "output-gain": 0.0
         },
         "blocklist": [],
