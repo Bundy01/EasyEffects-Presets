@@ -34,4 +34,10 @@ pw-metadata -n settings 0 clock.force-quantum VALUE
 **VALUE**: This is a multiple of 8 and greater than 1024. Its maximum value is 8192. For example `2048`.
 This number should be as small as possible (without cracking), because increasing the Quantum also increases latency. You can see this with `pw-top`.
 
+	* If for any reason you wish to revert to the default Quantum during the session:
+```sh
+pw-metadata -n settings 0 clock.force-quantum 0
+```
+
+
 # 🖤️ Enjoy the sound 🖤️
