@@ -27,6 +27,7 @@ You will need to install the `mda.lv2` or `mda-lv2`, `lsp-plugins-lv2` and `zam-
 
 * **Video Preset**
 	* If you get audio crackling when using this preset, you'll need to increase Pipewire's Quantum. **The following command is valid for the current session only.**
+
 ```sh
 pw-metadata -n settings 0 clock.force-quantum VALUE
 ```
@@ -35,6 +36,7 @@ pw-metadata -n settings 0 clock.force-quantum VALUE
 This number should be as small as possible (without cracking), because increasing the Quantum also increases latency. You can see this with `pw-top`.
 
 	* If for any reason you wish to revert to the default Quantum during the session:
+
 ```sh
 pw-metadata -n settings 0 clock.force-quantum 0
 ```
