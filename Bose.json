@@ -356,7 +356,6 @@
         },
         "maximizer#0": {
             "bypass": false,
-            "ceiling": 0.0,
             "input-gain": 0.0,
             "output-gain": 0.0,
             "release": 25.0,

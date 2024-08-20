@@ -4,20 +4,20 @@
             "bypass": false,
             "input-gain": 0.0,
             "link": -9.0,
-            "loudness": -2.2,
-            "output": -13.0,
+            "loudness": -2.4,
+            "output": -15.5,
             "output-gain": 0.0
         },
         "blocklist": [],
         "crystalizer#0": {
             "band0": {
                 "bypass": false,
-                "intensity": 4.0,
+                "intensity": 3.0,
                 "mute": false
             },
             "band1": {
                 "bypass": false,
-                "intensity": 1.0,
+                "intensity": -1.0,
                 "mute": false
             },
             "band10": {
@@ -37,7 +37,7 @@
             },
             "band2": {
                 "bypass": false,
-                "intensity": -1.0,
+                "intensity": -3.0,
                 "mute": false
             },
             "band3": {
@@ -81,16 +81,16 @@
         },
         "delay#0": {
             "bypass": false,
-            "dry-l": -100.0,
-            "dry-r": -100.0,
+            "dry-l": 0.0,
+            "dry-r": 3.0,
             "input-gain": 0.0,
             "invert-phase-l": false,
-            "invert-phase-r": false,
+            "invert-phase-r": true,
             "output-gain": 0.0,
             "time-l": 0.0,
             "time-r": 20.0,
-            "wet-l": 0.0,
-            "wet-r": 0.0
+            "wet-l": 9.0,
+            "wet-r": 9.0
         },
         "equalizer#1": {
             "balance": 0.0,
@@ -165,7 +165,7 @@
                 },
                 "band6": {
                     "frequency": 2600.0,
-                    "gain": 3.0,
+                    "gain": 2.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 2.0,
@@ -176,7 +176,7 @@
                 },
                 "band7": {
                     "frequency": 5500.0,
-                    "gain": 4.0,
+                    "gain": 3.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 2.5,
@@ -198,7 +198,7 @@
                 },
                 "band9": {
                     "frequency": 16000.0,
-                    "gain": 1.0,
+                    "gain": -1.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 2.5,
@@ -282,7 +282,7 @@
                 },
                 "band6": {
                     "frequency": 2000.0,
-                    "gain": 3.0,
+                    "gain": 2.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 2.0,
@@ -293,7 +293,7 @@
                 },
                 "band7": {
                     "frequency": 4000.0,
-                    "gain": 4.0,
+                    "gain": 3.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 2.5,
@@ -315,7 +315,7 @@
                 },
                 "band9": {
                     "frequency": 13000.0,
-                    "gain": 1.0,
+                    "gain": -1.0,
                     "mode": "APO (DR)",
                     "mute": false,
                     "q": 2.5,
@@ -329,7 +329,6 @@
         },
         "maximizer#0": {
             "bypass": false,
-            "ceiling": 0.0,
             "input-gain": 0.0,
             "output-gain": 0.0,
             "release": 25.0,
@@ -512,7 +511,7 @@
                 "enable-band": true,
                 "external-sidechain": false,
                 "knee": -7.0,
-                "makeup": 0.0,
+                "makeup": -0.5,
                 "mute": false,
                 "ratio": 1.3,
                 "release-threshold": -100.0,
