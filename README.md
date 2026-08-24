@@ -31,7 +31,7 @@ Or
 * If you have installed EasyEffects with Flatpak, it's here `~/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output`.
 
 ### Presets dependencies
-You will need to install the `mda.lv2` or `mda-lv2`, `lsp-plugins-lv2` and `zam-plugins-lv2` or `zam-plugins` packages from your GNU/Linux distribution to enable the presets effects.
+You will need to install the `mda.lv2` or `mda-lv2` and `lsp-plugins-lv2` packages from your GNU/Linux distribution to enable the presets effects.
 
 
 ## Settings
@@ -45,7 +45,7 @@ You will need to install the `mda.lv2` or `mda-lv2`, `lsp-plugins-lv2` and `zam-
 pw-metadata -n settings 0 clock.force-quantum VALUE
 ```
 
-**VALUE:** This is a multiple of 8 and greater than 1024. Its maximum value is 8192. For example `2048`.
+**VALUE:** This must be a value between 1024 and 8192.  For example `2048`.
 This number should be as small as possible (without cracking), because increasing the Quantum also increases latency. You can see this with `pw-top`.
 
 * If for any reason you wish to revert to the default Quantum during the session.
