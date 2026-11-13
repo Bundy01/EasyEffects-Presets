@@ -4,8 +4,8 @@
             "bypass": false,
             "input-gain": 0.0,
             "link": -9.0,
-            "loudness": -3.4,
-            "output": -11.7,
+            "loudness": -3.3,
+            "output": -9.3,
             "output-gain": 0.0
         },
         "blocklist": [],
@@ -104,7 +104,7 @@
                     "width": 4.0
                 },
                 "band3": {
-                    "frequency": 220.0,
+                    "frequency": 222.0,
                     "gain": 7.0,
                     "mode": "RLC (BT)",
                     "mute": false,
@@ -276,7 +276,7 @@
                     "width": 4.0
                 },
                 "band3": {
-                    "frequency": 220.0,
+                    "frequency": 222.0,
                     "gain": 7.0,
                     "mode": "RLC (BT)",
                     "mute": false,
@@ -356,7 +356,7 @@
             "split-channels": false
         },
         "limiter#0": {
-            "alr": true,
+            "alr": false,
             "alr-attack": 5.0,
             "alr-knee": 6.0,
             "alr-knee-smooth": -10.0,
@@ -370,17 +370,17 @@
             "input-to-sidechain": -80.01,
             "link-to-input": -80.01,
             "link-to-sidechain": -80.01,
-            "lookahead": 10.0,
+            "lookahead": 5.0,
             "mode": "Herm Thin",
             "output-gain": 0.0,
-            "oversampling": "True Peak/24 bit",
-            "release": 10.0,
+            "oversampling": "True Peak/16 bit",
+            "release": 20.0,
             "sidechain-preamp": 0.0,
             "sidechain-to-input": -80.01,
             "sidechain-to-link": -80.01,
             "sidechain-type": "Internal",
             "stereo-link": 100.0,
-            "threshold": -0.5
+            "threshold": -1.0
         },
         "plugins_order": [
             "bass_loudness#0",
